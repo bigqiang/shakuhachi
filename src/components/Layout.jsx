@@ -56,6 +56,7 @@ export default function Layout() {
             <div className="lang-toggle">
               <button className={`lang-btn ${lang === 'en' ? 'lang-btn--active' : ''}`} onClick={() => setLang('en')}>EN</button>
               <button className={`lang-btn ${lang === 'ru' ? 'lang-btn--active' : ''}`} onClick={() => setLang('ru')}>RU</button>
+              <button className={`lang-btn ${lang === 'zh' ? 'lang-btn--active' : ''}`} onClick={() => setLang('zh')}>ZH</button>
             </div>
 
             <button className="theme-toggle" onClick={toggleTheme} aria-label="Toggle theme">
