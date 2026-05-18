@@ -1,5 +1,7 @@
 # 尺八 Shakuhachi Fingering Guide
 
+English / [简体中文](./README_CN.md)
+
 Interactive fingering reference for the standard 5-hole shakuhachi.
 
 ## Features
