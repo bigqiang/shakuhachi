@@ -6,7 +6,6 @@ export const SONGS = [
     tempo: 66,
     description: {
       en: 'The most famous Japanese melody. Uses the Miyako-bushi scale. A good first piece — all notes are in the Otsu register with no meri required except Ha meri (Bb).',
-      ru: 'Самая известная японская мелодия. Использует гамму Мияко-буси. Хорошая первая пьеса — все ноты в регистре Оцу, мэри не требуется, кроме Ха мэри (Bb).',
       zh: '最著名的日本旋律。使用 Miyako-bushi 音阶。适合作为第一首曲目——所有音都在 Otsu 音区，除 Ha meri（Bb）外无需 mer。',
     },
     phrases: [
@@ -56,7 +55,6 @@ export const SONGS = [
     tempo: 72,
     description: {
       en: 'A well-known Western hymn that fits naturally on the Yo pentatonic scale. Good for practicing smooth transitions across the full basic range.',
-      ru: 'Известный западный гимн, хорошо ложащийся на пентатонику Ё. Полезен для тренировки плавных переходов по всему базовому диапазону.',
       zh: '一首众所周知的西方赞美诗，天然适合 Yo 五声音阶。适合练习整个基本范围内的平滑转换。',
     },
     phrases: [
@@ -107,7 +105,6 @@ export const SONGS = [
     tempo: 58,
     description: {
       en: 'A traditional Japanese lullaby from Kyoto. Uses the Miyako-bushi scale with its characteristic minor feel. Simple and meditative.',
-      ru: 'Традиционная японская колыбельная из Киото. Использует гамму Мияко-буси с характерным минорным звучанием. Простая и медитативная.',
       zh: '来自京都的传统日本摇篮曲。使用 Miyako-bushi 音阶，具有独特的悲怆感。简洁而冥想。',
     },
     phrases: [

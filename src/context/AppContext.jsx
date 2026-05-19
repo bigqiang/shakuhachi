@@ -3,13 +3,17 @@ import { TRANSLATIONS } from '../data/i18n';
 import { SHAKUHACHI_SIZES } from '../data/sizes';
 
 const AppContext = createContext();
+const SUPPORTED_LANGS = ['en', 'zh'];
 
 function findSizeByLength(length) {
   return SHAKUHACHI_SIZES.find((s) => s.length === length) || SHAKUHACHI_SIZES.find((s) => s.key === 'D');
 }
 
 export function AppProvider({ children }) {
-  const [lang, setLang] = useState(() => localStorage.getItem('shaku-lang') || 'en');
+  const [lang, setLang] = useState(() => {
+    const saved = localStorage.getItem('shaku-lang');
+    return SUPPORTED_LANGS.includes(saved) ? saved : 'en';
+  });
   const [selectedLength, setSelectedLength] = useState(() => localStorage.getItem('shaku-length') || '1.8');
   const [holeCount, setHoleCount] = useState(() => Number(localStorage.getItem('shaku-holes')) || 5);
   const [theme, setTheme] = useState(() => {
@@ -43,7 +47,8 @@ export function useAppContext() {
 
 export function useTranslation() {
   const { lang } = useContext(AppContext);
-  return (key) => TRANSLATIONS[lang][key] || key;
+  const translation = TRANSLATIONS[lang] || TRANSLATIONS.en;
+  return (key) => translation[key] || TRANSLATIONS.en[key] || key;
 }
 
 export default AppContext;

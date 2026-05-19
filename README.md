@@ -10,7 +10,7 @@ Interactive fingering reference for the standard 5-hole shakuhachi.
 - **SVG fingering diagrams**: visual hole charts for every note
 - **6 Japanese pentatonic scales**: Miyako-bushi, Hirajoshi, In-sen, Iwato, Yo, Akebono
 - **Key transposition**: select your shakuhachi size (1.3–2.8 shaku) and all Western note names update
-- **Bilingual**: English / Russian toggle
+- **Bilingual**: English / Chinese toggle
 
 ## Quick start
 

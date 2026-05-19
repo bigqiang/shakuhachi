@@ -6,7 +6,6 @@ export const EXERCISES = [
     tempo: 30,
     description: {
       en: 'Long tone on Ro. The most fundamental exercise. Hold each breath as long as possible with steady pitch and volume. Focus on relaxed posture and consistent airflow.',
-      ru: 'Длинный тон на Ро. Самое фундаментальное упражнение. Держите каждый вдох как можно дольше с ровной высотой и громкостью. Следите за расслабленной позой и стабильным потоком воздуха.',
       zh: 'Ro 的长音练习。最基础的练习。保持每次呼吸尽量长，音高和音量稳定。注意放松姿势和均匀气流。',
     },
     notes: [
@@ -24,7 +23,6 @@ export const EXERCISES = [
     tempo: 60,
     description: {
       en: 'Basic five-note scale going up: Ro → Tsu → Re → Chi → Ha. Keep airflow steady — imagine playing Ro the entire time and just moving fingers.',
-      ru: 'Базовая пентатоника вверх: Ро → Цу → Рэ → Ти → Ха. Сохраняйте ровный поток воздуха — представьте, что играете Ро всё время, а только пальцы двигаются.',
       zh: '基础五声音阶上行：Ro → Tsu → Re → Chi → Ha。保持气流稳定——想象一直在吹 Ro，只是手指在移动。',
     },
     notes: [
@@ -42,7 +40,6 @@ export const EXERCISES = [
     tempo: 60,
     description: {
       en: 'Five-note scale going down: Ha → Chi → Re → Tsu → Ro. Descending is often harder — fingers must close holes cleanly without air leaks.',
-      ru: 'Пентатоника вниз: Ха → Ти → Рэ → Цу → Ро. Нисхождение часто сложнее — пальцы должны чисто закрывать отверстия без утечек воздуха.',
       zh: '五声音阶下行：Ha → Chi → Re → Tsu → Ro。下行通常更难——手指必须干净闭孔，不漏气。',
     },
     notes: [
@@ -60,7 +57,6 @@ export const EXERCISES = [
     tempo: 72,
     description: {
       en: 'Full scale up then back down. Practice smooth, even transitions. Each note should be the same volume and duration.',
-      ru: 'Полная гамма вверх и обратно. Тренируйте плавные, ровные переходы. Каждая нота должна быть одинаковой громкости и длительности.',
       zh: '完整音阶上行再下行。练习平滑、均匀的转换。每个音应该保持相同的音量和时值。',
     },
     notes: [
@@ -84,7 +80,6 @@ export const EXERCISES = [
     tempo: 60,
     description: {
       en: 'Jumping between notes a third apart. Trains finger coordination for non-adjacent notes: Ro-Re, Tsu-Chi, Re-Ha.',
-      ru: 'Скачки через ноту (терции). Тренирует координацию пальцев на несоседних нотах: Ро-Рэ, Цу-Ти, Рэ-Ха.',
       zh: '跨三度跳音练习。训练手指在非相邻音之间的协调：Ro-Re、Tsu-Chi、Re-Ha。',
     },
     notes: [
@@ -102,7 +97,6 @@ export const EXERCISES = [
     tempo: 50,
     description: {
       en: 'Alternating normal and meri notes. Focus on smooth chin movement — lower the chin for meri, raise for normal. The pitch change should be exactly one semitone.',
-      ru: 'Чередование обычных нот и мэри. Сосредоточьтесь на плавном движении подбородка — опускайте для мэри, поднимайте для обычной. Изменение высоты должно быть ровно на полутон.',
       zh: '交替演奏普通音与 meri 音。注意下颌的平滑动作——下颌下沉为 meri，抬起为普通音。音高变化应恰好一个半音。',
     },
     notes: [
@@ -120,7 +114,6 @@ export const EXERCISES = [
     tempo: 50,
     description: {
       en: 'Transition between Otsu and Kan registers. The same fingering produces notes one octave apart — the change comes from breath pressure and embouchure tightness.',
-      ru: 'Переход между регистрами Оцу и Кан. Одинаковая аппликатура даёт ноты на октаву — разница в давлении воздуха и плотности амбушюра.',
       zh: '在 Otsu 和 Kan 音区之间切换。相同指法会产生相隔一个八度的音，高度差来自气息压力和唇形紧致度。',
     },
     notes: [
