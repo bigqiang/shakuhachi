@@ -43,8 +43,3 @@ src/
   App.css        ← 统一样式定义
 ```
 
-## 添加内容
-
-- **新增音阶**：在 `src/data/scales.js` 添加一个对象
-- **新增语言**：在 `src/data/i18n.js` 添加一个key值
-- **新增页面**：在 `src/pages/` 添加组件，并在 `src/App.jsx` 添加路由
