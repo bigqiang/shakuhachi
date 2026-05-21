@@ -1,4 +1,4 @@
-# 尺八 Shakuhachi Fingering Guide
+# Shakuhachi Fingering Guide
 
 English / [简体中文](./README_CN.md)
 
